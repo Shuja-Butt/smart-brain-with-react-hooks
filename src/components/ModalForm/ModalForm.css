@@ -1,0 +1,35 @@
+.buttons_container{
+    display: flex;
+    gap:20px;
+}
+.Update input{
+    color:white;
+    background-color:aqua;
+}
+.Cancel input{
+    color:white;
+    background-color:tomato
+
+}
+
+.cross{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+    padding:10px;
+    margin-left: 90%;
+    
+}
+
+.custom{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
